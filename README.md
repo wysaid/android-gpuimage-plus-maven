@@ -4,7 +4,7 @@ maven repo for [android-gpuimage-plus](https://github.com/wysaid/android-gpuimag
 
 bintray: [https://bintray.com/wangyang/maven/gpuimage-plus](https://bintray.com/wangyang/maven/gpuimage-plus)
 
-jcenter: in progress...
+jcenter: [http://jcenter.bintray.com/org/wysaid/gpuimage-plus/](http://jcenter.bintray.com/org/wysaid/gpuimage-plus/)
 
 ## Usage ##
 
