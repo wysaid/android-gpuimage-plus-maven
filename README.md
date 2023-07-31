@@ -1,8 +1,6 @@
-# Deprecated #
+# android-gpuimage-plus-maven #
 
-Please use the [jcenter version](http://jcenter.bintray.com/org/wysaid/gpuimage-plus/).
-
-This repo is no longer used.
+Explore items: <https://maven.wysaid.org/org/wysaid/gpuimage-plus/>
 
 ## Description ##
 
