@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.wysaid",
+    "module": "gpuimage-plus",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gpuimage-plus-3.0.0.aar",
+          "url": "gpuimage-plus-3.0.0.aar",
+          "size": 10352845,
+          "sha512": "580f16b306835f1981dc73552f42b12399a4a38dd9cbc23603fea544090f815e759d41682a8773f6bfe39f2ffd31d836c2cc6de6bbc0affb1e15809c87bf1043",
+          "sha256": "600314bd68ff24e6bc0c79dd94b375855fd9e57cc82ea21804ecc244e78a4a48",
+          "sha1": "fec3399e7a23c1e73a92d8277199b9d8567dc324",
+          "md5": "61d9fabaf06762ecbe8ac5c1b8e8d32d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gpuimage-plus-3.0.0.aar",
+          "url": "gpuimage-plus-3.0.0.aar",
+          "size": 10352845,
+          "sha512": "580f16b306835f1981dc73552f42b12399a4a38dd9cbc23603fea544090f815e759d41682a8773f6bfe39f2ffd31d836c2cc6de6bbc0affb1e15809c87bf1043",
+          "sha256": "600314bd68ff24e6bc0c79dd94b375855fd9e57cc82ea21804ecc244e78a4a48",
+          "sha1": "fec3399e7a23c1e73a92d8277199b9d8567dc324",
+          "md5": "61d9fabaf06762ecbe8ac5c1b8e8d32d"
+        }
+      ]
+    }
+  ]
+}
