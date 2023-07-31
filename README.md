@@ -16,7 +16,7 @@ maven repo for [android-gpuimage-plus](https://github.com/wysaid/android-gpuimag
 
 repositories {
     maven {
-        url 'http://maven.wysaid.org/'
+        url 'https://maven.wysaid.org/'
     }
 }
 
