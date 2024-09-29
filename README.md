@@ -1,5 +1,6 @@
 # android-gpuimage-plus-maven #
 
+Github URL: <https://github.com/wysaid/android-gpuimage-plus-maven>
 Explore items: <https://maven.wysaid.org/org/wysaid/gpuimage-plus/>
 
 ## Description ##
