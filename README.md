@@ -1,6 +1,6 @@
 # android-gpuimage-plus-maven #
 
-- Size URL: <https://maven.wysaid.org/>
+- Site URL: <https://maven.wysaid.org/>
 - Github URL: <https://github.com/wysaid/android-gpuimage-plus-maven>
 - Explore items: <https://maven.wysaid.org/org/wysaid/gpuimage-plus/>
 
@@ -18,16 +18,32 @@ maven repo for [android-gpuimage-plus](https://github.com/wysaid/android-gpuimag
 
 repositories {
     maven {
+        // Use github hosted maven repo for now.
+        // Repo url: https://github.com/wysaid/android-gpuimage-plus-maven
         url 'https://maven.wysaid.org/'
     }
 }
 
 dependencies {
-    //All arch: armeabi-v7a, arm64-v8a, x86, x86_64 with video module (ffmpeg bundled)
-    compile 'org.wysaid:gpuimage-plus:3.0.0'
+    // Page size: 4KB (default)
+    // Architectures: armeabi-v7a, arm64-v8a, x86, x86_64
+    // Full-featured with FFmpeg bundled
+    implementation 'org.wysaid:gpuimage-plus:3.1.0'
 
-    //All arch: armeabi-v7a, arm64-v8a, x86, x86_64 without video module (no ffmpeg)
-    compile 'org.wysaid:gpuimage-plus:3.0.0-min'
+    // Page size: 16KB
+    // Architectures: armeabi-v7a, arm64-v8a, x86, x86_64
+    // Full-featured with FFmpeg bundled
+    implementation 'org.wysaid:gpuimage-plus:3.1.0-16k'
+
+    // Page size: 4KB (default)
+    // Architectures: armeabi-v7a, arm64-v8a, x86, x86_64
+    // Image-only version (no video features or FFmpeg)
+    implementation 'org.wysaid:gpuimage-plus:3.1.0-min'
+
+    // Page size: 16KB
+    // Architectures: armeabi-v7a, arm64-v8a, x86, x86_64
+    // Image-only version (no video features or FFmpeg)
+    implementation 'org.wysaid:gpuimage-plus:3.1.0-16k-min'
 }
 
 ```
