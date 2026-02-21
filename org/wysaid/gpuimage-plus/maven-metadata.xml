@@ -3,8 +3,8 @@
   <groupId>org.wysaid</groupId>
   <artifactId>gpuimage-plus</artifactId>
   <versioning>
-    <latest>3.1.1-16k-min</latest>
-    <release>3.1.1-16k-min</release>
+    <latest>3.1.2-16k</latest>
+    <release>3.1.2-16k</release>
     <versions>
       <version>2.4.6</version>
       <version>2.4.6-armv7a</version>
@@ -18,7 +18,11 @@
       <version>3.1.1-16k-min</version>
       <version>3.1.1</version>
       <version>3.1.1-min</version>
+      <version>3.1.2-min</version>
+      <version>3.1.2-16k-min</version>
+      <version>3.1.2</version>
+      <version>3.1.2-16k</version>
     </versions>
-    <lastUpdated>20260218154007</lastUpdated>
+    <lastUpdated>20260221163217</lastUpdated>
   </versioning>
 </metadata>
